@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.logo{
+  margin-left: 20px; 
+}
+
+.radius{
+  border-radius: 100px !important; 
+}
+
+.twenty-mg-top{
+  margin-top: 20px;
+}
+
+.ten-mg-top{
+  margin-top: 10px;
+}
+
+.input-field :focus + label {
+  color: rgb(255, 153, 0) !important;
+}
+
+.input-field :focus {
+  border-bottom: 1px solid rgb(255, 153, 0) !important;
+  box-shadow: 0 1px 0 0 rgb(240, 153, 24) !important;
+}
+
+.push {
+  margin-right: 10px !important; 
+}
